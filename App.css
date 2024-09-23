@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://blog.mugafi.com/wp-content/uploads/2021/04/WhatsApp-Image-2021-04-29-at-3.17.26-PM.jpeg");
+  background-size: cover;
+  
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(245, 229, 229);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e43d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.previous-blogs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.previous-blogs li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #47716a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ccc;
+}
+
+.nav-links button {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-links button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  textarea {
+      height: 120px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.6rem;
+  }
+
+  textarea {
+      height: 100px;
+  }
+
+  button {
+      padding: 10px;
+  }
+}
+.inputEl{
+  width:250px ;
+  height: 25px;
+  margin: 10px;
+}
+.login{
+  color: black;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+
+}
+.login-container{
+  
+  
+  margin: 150px;
+  margin-left: 180px;
+  text-align: center;
+  
+  
+  background-color:transparent;
+  
+  ;
+}
+.signup-container{
+  text-align: center;
+  margin: 150px;
+  margin-left: 180px;
+  background-color:transparent;
+
+}
+h2{
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
